@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+body {
+  margin: 10px;
+  display: flex;
+  font-family: Roboto;
+  /* background-color: rgb(28, 42, 70); Hover */
+  /* background-color: hsl(234, 29%, 20%); button */
+  background-color: hsl(235, 18%, 26%);
+  align-items: center;
+  justify-content: center;
+  color: hsl(235, 18%, 26%);
+  font-size: 16px;
+}
+.bold {
+  font-family: Roboto-Bold;
+  margin: 0;
+  font-size: 58px;
+}
+.container {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  width: 850px;
+  height: 632px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.padding {
+  display: flex;
+  background-color: transparent;
+}
+.sign-up-form {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 593px;
+  width: 400px;
+  align-items: start;
+  justify-content: center;
+}
+.title, .paragraph, .list, .form  {
+  width: 100%;
+}
+.title, .paragraph {
+  padding-bottom: 10px;
+}
+.list {
+  padding-bottom: 30px;
+}
+.paragraph {
+  width: 400px;
+  padding-bottom: 20px;
+}
+.paragraph p {
+  margin: 0;
+}
+
+#label, #email, #btn {
+  display: block;
+}
+#label {
+  font-size: 12px;
+  font-family: Roboto-Bold;
+  width: 100%;
+  padding-bottom: 10px;
+}
+#email {
+  margin-bottom: 15px;
+  padding: 13px;
+  width: 87.5%;
+  border-radius: 4px;
+  border: 1px solid hsl(233, 10%, 33%);
+}
+#email:focus {
+  border: 1px solid transparent;
+  outline: 1px solid hsl(235, 18%, 26%);
+}
+#btn {
+  height: 50px;
+  width: 95%;
+  background-color: hsl(236, 25%, 21%);
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  font-family: Roboto-Bold;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+.list ul li {
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.list img {
+  padding-right: 15px;
+}
+.list ul {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  margin-top: 0;
+}
+#successMessage {
+  display: none;
+}
