@@ -9,7 +9,7 @@ function submitButton() {
   } else {
     body.innerHTML = `
   <div id="successBody">
-    <img class="picture" src="/assets/images/icon-success.svg">
+    <img class="picture" src="assets/images/icon-success.svg">
     <h1>Thanks for subscribing!</h1>
     <p>A confirmation email has been sent to <b>${email}</b>. Please open it and click the button inside to confirm your subscription</p>
     <button id="btn" onclick="returnForm()">Dismiss message</button>
@@ -30,9 +30,9 @@ function returnForm() {
       </div>
       <div class="list">
         <ul>
-          <li><img src="/assets/images/icon-list.svg">Product discovery and building what matters</li>
-          <li><img src="/assets/images/icon-list.svg">Measuring to ensure updates are a success</li>
-          <li><img src="/assets/images/icon-list.svg">And much more!</li>
+          <li><img src="assets/images/icon-list.svg">Product discovery and building what matters</li>
+          <li><img src="assets/images/icon-list.svg">Measuring to ensure updates are a success</li>
+          <li><img src="assets/images/icon-list.svg">And much more!</li>
         </ul>
       </div> 
       <div class="form">
@@ -45,8 +45,8 @@ function returnForm() {
       </div>  
     </div>
     <div class="image">
-      <img src="/assets/images/illustration-sign-up-desktop.svg" id="image" alt="Some Image">
-      <img src="/assets/images/illustration-sign-up-mobile.svg" class="image-2" alt="Some Image">
+      <img src="assets/images/illustration-sign-up-desktop.svg" id="image" alt="Some Image">
+      <img src="assets/images/illustration-sign-up-mobile.svg" class="image-2" alt="Some Image">
     </div>
   </div>
 </div>  
